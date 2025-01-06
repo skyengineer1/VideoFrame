@@ -1,0 +1,43 @@
+div.container {
+    margin: 10px;
+}
+
+div.video {
+    width: 400px;
+    position: relative;
+}
+
+img.video-image {
+    width: 400px;
+    height: 250px;
+}
+
+div.video-time {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+div.video-info {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    width: 400px;
+    align-items: center;
+}
+
+img.profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+p.description {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
